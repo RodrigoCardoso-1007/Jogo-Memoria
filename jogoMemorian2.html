@@ -1,0 +1,104 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Jogo da Memória</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="icon" href="../imgs/icone.ico">
+    <script src="https://cdn.jsdelivr.net/npm/easytimer@1.1.1/dist/easytimer.min.js"></script>
+
+
+</head>
+
+<body>
+    <div id="all">
+        <div id="all2">
+
+            <h1>Jogo da Memória</h1>
+            </br>
+            <h6 style=" color: #ffffff; text-align: center;">Mulheres na ciência</h6>
+            </br>
+            </br>
+
+            <div id="countdownExample">
+                <div id="values">00:00:00</div>
+                <div class="btn-group">
+                    <button class="btn btn-secondary" style="margin-left: 100%; background-color: #341560;" id="pauseButton">⠀⠀⠀⠀⠀⠀Pausar⠀⠀⠀⠀⠀</button>
+                    <button class="btn btn-secondary" style="margin-left: 30%; background-color: #341560;" id="resetBoard">⠀⠀⠀⠀Reiniciar⠀⠀⠀⠀</button>
+                </div>
+            </div>
+
+            <div id="mensagem" margin-top=30px font-size=12px></div>
+
+            <section class="memory-game" style="margin-top: 5%;">
+                <div class="memory-card" data-framework="react" onclick="flipCard()">
+                    <img class="front-face" src="imgsMem/react.png" alt="Face da Carta">
+                    <img class="back-face" src="imgsMem/logo.png" alt="Verso da Carta">
+                </div>
+
+                <div class="memory-card" data-framework="react" onclick="flipCard()">
+                    <img class="front-face" src="imgsMem/grace.png" alt="Face da Carta">
+                    <img class="back-face" src="imgsMem/logo.png" alt="Verso da Carta">
+                </div>
+
+                <div class="memory-card" data-framework="angular" onclick="flipCard()">
+                    <img class="front-face" src="imgsMem/angular.png" alt="Face da Carta">
+                    <img class="back-face" src="imgsMem/logo.png" alt="Verso da Carta">
+                </div>
+
+                <div class="memory-card" data-framework="angular" onclick="flipCard()">
+                    <img class="front-face" src="imgsMem/jean.png" alt="Face da Carta">
+                    <img class="back-face" src="imgsMem/logo.png" alt="Verso da Carta">
+                </div>
+
+                <div class="memory-card" data-framework="ember" onclick="flipCard()">
+                    <img class="front-face" src="imgsMem/ada.png" alt="Face da Carta">
+                    <img class="back-face" src="imgsMem/logo.png" alt="Verso da Carta">
+                </div>
+
+                <div class="memory-card" data-framework="ember" onclick="flipCard()">
+                    <img class="front-face" src="imgsMem/ember.png" alt="Face da Carta">
+                    <img class="back-face" src="imgsMem/logo.png" alt="Verso da Carta">
+                </div>
+
+                <div class="memory-card" data-framework="vue" onclick="flipCard()">
+                    <img class="front-face" src="imgsMem/vue.jpg" alt="Face da Carta">
+                    <img class="back-face" src="imgsMem/logo.png" alt="Verso da Carta">
+                </div>
+
+                <div class="memory-card" data-framework="vue" onclick="flipCard()">
+                    <img class="front-face" src="imgsMem/vue.png" alt="Face da Carta">
+                    <img class="back-face" src="imgsMem/logo.png" alt="Verso da Carta">
+                </div>
+
+                <div class="memory-card" data-framework="backbone" onclick="flipCard()">
+                    <img class="front-face" src="imgsMem/backbone.png" alt="Face da Carta">
+                    <img class="back-face" src="imgsMem/logo.png" alt="Verso da Carta">
+                </div>
+
+                <div class="memory-card" data-framework="backbone" onclick="flipCard()">
+                    <img class="front-face" src="imgsMem/backbone.jpg" alt="Face da Carta">
+                    <img class="back-face" src="imgsMem/logo.png" alt="Verso da Carta">
+                </div>
+
+                <div class="memory-card" data-framework="aurelia" onclick="flipCard()">
+                    <img class="front-face" src="imgsMem/aurelia.jpg" alt="Face da Carta">
+                    <img class="back-face" src="imgsMem/logo.png" alt="Verso da Carta">
+                </div>
+
+                <div class="memory-card" data-framework="aurelia" onclick="flipCard()">
+                    <img class="front-face" src="imgsMem/aurelia.png" alt="Face da Carta">
+                    <img class="back-face" src="imgsMem/logo.png" alt="Verso da Carta">
+                </div>
+            </section>
+            <script src="scriptsn2.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>
